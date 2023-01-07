@@ -3,14 +3,16 @@
   import Taskbar from "./lib/Taskbar.svelte";
 </script>
 
-<main class="main">
-  <div class="desktop">
-    <Desktop />
-  </div>
+<div class="main">
+  <Desktop />
   <Taskbar />
-</main>
+</div>
 
 <style>
-
+  .main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./assets/meowtain.png");
+  }
 </style>
 

@@ -6,7 +6,6 @@
     .taskbar {
         width: 100vw;
         height: 50px;
-
-        background-color: gray;
+        backdrop-filter: blur(5px) contrast(0.9);
     }
 </style>
