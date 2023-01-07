@@ -13,6 +13,10 @@
     height: 100vh;
     width: 100vw;
     background-image: url("./assets/meowtain.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
   }
 </style>
 
